@@ -61,3 +61,6 @@ $ npm run start:prod
 4.  You will find all the available endpoints documentation by going to `http://localhost:3000/api`
 
     ![Swagger](./docs/images/swagger.png)
+
+To use the access token obtained in the `/auth/login` endpoint on the others, click the "Authorize" endpoint on the top-right corner and insert the token as shown:
+![Swagger Bearer Auth](./docs/images/bearer_token_input.png)
