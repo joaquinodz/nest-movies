@@ -68,5 +68,5 @@ $ npm run start:prod
 > ![Swagger Bearer Auth](./docs/images/admin_user_example.png)
 
 > [!NOTE]  
-> To use the access token obtained in the `/auth/login` endpoint on the others, click the "Authorize" endpoint on the top-right corner and insert the token as shown:
+> To automatically use the access token obtained in the `/auth/login` on the other endpoints, click the "Authorize" endpoint on the top-right corner and insert the token as shown:
 > ![Swagger Bearer Auth](./docs/images/bearer_token_input.png)
