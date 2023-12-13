@@ -14,7 +14,7 @@ export const databaseProviders = [
         password: configService.getOrThrow('DATABASE_PASSWORD'),
         database: configService.getOrThrow('DATABASE_NAME'),
         entities: [__dirname + '/../**/*.entity{.ts,.js}'],
-        synchronize: configService.get('NODE_ENV') === 'development',
+        synchronize: true,
       });
 
       return dataSource.initialize();

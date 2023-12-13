@@ -26,6 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+# Prerequisites:
+
+- PostgreSQL database
+- NodeJS
+
 ## Installation
 
 ```bash
@@ -45,29 +50,14 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+# Instructions:
 
-```bash
-# unit tests
-$ npm run test
+1.  Set up a PostgreSQL database
 
-# e2e tests
-$ npm run test:e2e
+2.  Rename the `.env.example` file to `.env` and complete all of its properties with the appropiate values.
 
-# test coverage
-$ npm run test:cov
-```
+3.  Start the application.
 
-## Support
+4.  You will find all the available endpoints documentation by going to `http://localhost:3000/api`
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+    ![Swagger](./docs/images/swagger.png)
