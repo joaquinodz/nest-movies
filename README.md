@@ -64,7 +64,7 @@ $ npm run start:prod
 
 > [!IMPORTANT]  
 > The first user you create will have the `user` role assigned by default.
-> To use the administrative endpoints you need to use your prefered database manager (e.g. pgAdmin) and modify the `role` column of the `user` table to `admin` as described here:
+> To use the administrative endpoints you need to use your prefered database manager (e.g. pgAdmin) and modify the `role` column of the `user` table to `admin` as shown here:
 > ![Swagger Bearer Auth](./docs/images/admin_user_example.png)
 
 > [!NOTE]  
