@@ -62,12 +62,11 @@ $ npm run start:prod
 
     ![Swagger](./docs/images/swagger.png)
 
-
-> [!NOTE]  
-> To use the access token obtained in the `/auth/login` endpoint on the others, click the "Authorize" endpoint on the top-right corner and insert the token as shown:
-> ![Swagger Bearer Auth](./docs/images/bearer_token_input.png)
-
 > [!IMPORTANT]  
 > The first user you create will have the `user` role assigned by default.
 > To use the administrative endpoints you need to use your prefered database manager (e.g. pgAdmin) and modify the `role` column of the `user` table to `admin` as described here:
 > ![Swagger Bearer Auth](./docs/images/admin_user_example.png)
+
+> [!NOTE]  
+> To use the access token obtained in the `/auth/login` endpoint on the others, click the "Authorize" endpoint on the top-right corner and insert the token as shown:
+> ![Swagger Bearer Auth](./docs/images/bearer_token_input.png)
